@@ -1,0 +1,14 @@
+{
+  "name": "word-parse-to-vue",
+  "version": "0.0.1",
+  "description": "parse word",
+  "main": "cli.js",
+  "scripts": {
+    "cli": "node cli.js",
+  },
+  "author": "langsen-x",
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "^0.5.5"
+  }
+}
