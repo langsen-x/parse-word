@@ -4,7 +4,7 @@
   "description": "parse word",
   "main": "cli.js",
   "scripts": {
-    "cli": "node cli.js",
+    "cli": "node cli.js"
   },
   "author": "langsen-x",
   "license": "MIT",
