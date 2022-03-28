@@ -1,12 +1,13 @@
 const admZip = require('adm-zip')
 const path = require('path')
 const fs = require('fs')
-const { docxPath, outputPath, className, script, style, titleText, subTitleText} = require('./config/index.js')
+const {docxPath, outputPath, className, script, style, titleText, subTitleText} = require('./config/index.js')
 
 const extractPath = path.resolve(__dirname, './extract')
 // 每次执行删除目录
 {
     delFileAndFolder(extractPath)
+
     function delFileAndFolder(path) {
         let files = []
         if (fs.existsSync(path)) {
@@ -68,9 +69,10 @@ if (matchedWp) {
                         let colVal = ''
                         // console.log('matchedItem:', matchedItem)
                         matchedItem.forEach(colItem => {
-                            colVal = colItem.slice(16, 22)
+                            const iLen = colItem.length
+                            colVal = colItem.slice(0, iLen - 3).slice(16, 22)
                         })
-                        if (colVal !== '000000') {
+                        if (colVal !== '000000' && colVal !== 'auto') {
                             // console.log('colVal:', colVal)
                             colLabel = `<span style="color: #${colVal}"></span>`
                             // console.log('colLabel:', colLabel)
@@ -116,6 +118,7 @@ fs.writeFile(outputPath, temp, (err) => {
 function genTemplate(data) {
     if (script) {
         return `<template><cube-container><div class="${className.doc}">\n${data}\n</div></cube-container></template>\n\n${script}\n\n${style}`
+        // return `<template><base-layout><template #main><div class="${className.doc}">\n${data}\n</div></template></base-layout></template>\n\n${script}\n\n${style}`
     } else {
         return `<template><div class="${className.doc}">\n${data}\n</div></template>\n\n${style}`
     }
