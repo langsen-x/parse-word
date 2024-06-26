@@ -1,0 +1,59 @@
+<template>
+    <div class="doc">
+        <p class="p"><span style="color: #101010">一、车损误工保障</span></p>
+        <p class="p"><span style="color: #101010">1、被保险人所驾驶的标的</span><em><span style="color: #101010">车辆必须投保商业车险</span></em><span
+                style="color: #101010">。被保险人驾驶保险单中载明的</span><em><span style="color: #101010">标的车辆在服务T3平台订单期间</span></em><span
+                style="color: #101010">发生交通事故，造成标的</span><em><span style="color: #101010">车辆自身损失超过2000元，不论被保险人在交通事故中有责无责，本保险负责赔偿车损误工损失300元（1元版）/600元（2元版），如在</span><span
+                style="color: #4095E5">认证服务站</span><span
+                style="color: #101010">进行维修，车损误工损失赔偿400元（1元版）/800元（2元版）。</span></em></p>
+        <p class="p"><span style="color: #101010">2、被保险人</span><em><span
+                style="color: #101010">在非服务自己平台订单期间</span></em><span style="color: #101010">发生事故造成的车损停运损失，本保险不承担赔偿责任；</span><em><span
+                style="color: #101010">被保险人标的车辆因自然损耗、质量缺陷等非交通事故造成的车损停运损失</span></em><span
+                style="color: #101010">，本保险不承担赔偿责任。</span></p>
+        <p class="p"><span style="color: #101010">二、法定传染病（新冠危重型、重型）确诊</span></p>
+        <p class="p"><span style="color: #101010">1、被保险人在等待期（被保险人首次开通误工险保障计划时</span><em><span
+                style="color: #101010">等待期为3天</span></em><span style="color: #101010">，开通误工险保障计划后连续无开工无保单达到30天的或者退出投保计划后重新加入保障计划的均重新计算等待期）后，驾驶本保险单载明的标的车辆</span><em><span
+                style="color: #101010">在服务T3平台订单期间感染新型冠状病毒肺炎</span></em><span style="color: #101010">，并达到国家卫健委最新发布《新型冠状病毒肺炎诊疗方案》中“临床分型”对应程度</span><em><span
+                style="color: #101010">危重型、重型</span></em><span style="color: #101010">的本保险按3000元（1元版）/6000元（2元版）赔偿误工损失，对于普通型、轻型、无症状均不属于本保险责任，本保险不承担保险赔偿责任。</span>
+        </p>
+        <p class="p"><span
+                style="color: #101010">2、在等待期间内感染新型冠状病毒肺炎的本保险不承担赔偿责任；新冠抗原自测为阳性或者检测机构检测错误本保险不承担赔偿责任；</span><em><span
+                style="color: #101010">新冠确诊出院后30天内（含）再次确诊的本保险不承担赔偿责任</span></em><span
+                style="color: #101010">；在中华人民共和国境外以及香港、澳门和台湾地区感染新型冠状病毒造成的误工损失本保险不承担赔偿责任；</span><em><span
+                style="color: #101010">如被保险人确诊入院之前的7天内（含）没有投保本保险则本保险不承担赔偿责任。</span></em>
+        </p>
+        <p class="p"><span style="color: #101010">三、直系亲属丧期误工补偿</span></p>
+        <p class="p"><span style="color: #101010">被保险人本人直系亲属（即被保险人本人父母、配偶、子女）死亡时需停运料理相关事务，本保险赔偿标准为100元/天（1元版）/200元/天（2元版），</span><em><span
+                style="color: #101010">赔偿天数不超过3天。</span></em></p>
+        <p class="p"><em><span
+                style="color: #101010">四、理赔时对T3平台提供车内视频证明的无需被保险人提供视频证明。</span></em></p>
+        <p class="p"><span style="color: #101010">五、住院津贴</span></p>
+        <p class="p"><span style="color: #101010">1、保险期间内，被保险人驾驶保险单载明的标的车辆</span><em><span
+                style="color: #101010">在服务T3平台订单过程中遭受意外伤害或在等待期后患疾病（患疾病住院的等待期为15天</span></em><span
+                style="color: #101010">，从首次开通误工险投保计划之日开始计算，续保免除等待期，但</span><em><span
+                style="color: #101010">连续30天内无开工无保单的或者退出误工险保障计划后重新投保的均重新计算等待期）</span></em><span
+                style="color: #101010">，经</span><em><span
+                style="color: #101010">当地社会基本医疗保险管理机构指定或者认可的医疗机构诊断必须住院接受治疗的</span></em><span
+                style="color: #101010">，保险人</span><em><span
+                style="color: #101010">在扣除3天的免赔天数后</span></em><span style="color: #101010">，按100元/天（1元版）/200元/天（2元版）赔偿住院津贴，最多赔偿天数不超过30天；如被保险人入院之前的7天内（含）没有投保本保险则本保险不承担赔偿责任。</span>
+        </p>
+        <p class="p"><em><span style="color: #101010">2、因法定传染病（含新冠）原因造成的住院不属于疾病住院保险责任。</span></em>
+        </p>
+        <p class="p"><em><span style="color: #101010">3、被保险人既往症、慢性病原因造成的住院不属于保险责任。</span></em>
+        </p>
+        <p class="p"><span style="color: #101010">六、续保</span></p>
+        <p class="p"><span style="color: #101010">开通保障计划后自动续保</span></p>
+        <p class="p"><span style="color: #101010">七、退保规则</span></p>
+        <p class="p"><span style="color: #101010">本产品不支持退保</span></p>
+        <p class="p"><span style="color: #101010">八、扣费规则</span></p>
+        <p class="p"><span style="color: #101010">每天出车接单才扣费，不出车不扣费。</span></p>
+        <p class="p">若当天首单为实时单，则出车当天接单就扣费;</p>
+        <p class="p">若当天首单为预约单，则在乘客上车后扣费；</p>
+        <p class="p">开通保障计划当天，首单的定义为当天开通保障计划后的第一个订单。</p>
+        <p class="p"><span style="color: #101010">如有未尽事宜，请参照保险条款</span></p>
+    </div>
+</template>
+
+<style lang="scss" scoped>
+@import "common-clause";
+</style>
